@@ -1,0 +1,18 @@
+import requests
+from datetime import datetime
+import pytz
+
+
+response = requests.get("https://www.google.com")
+print(response)
+
+local = datetime.now()
+print("local:", local.strftime("%Y %B %d %H:%M:%S"))
+
+tz_NYC = pytz.timezone("America/New_York")
+datetime_NYC = datetime.now(tz_NYC)
+print("NYC", datetime_NYC.strftime("%Y %B %d %H:%M:%S"))
+
+tz_London = pytz.timezone("Europe/London")
+datetime_London = datetime.now(tz_London)
+print("London", datetime_London.strftime("%Y %B %d %H:%M:%S"))
