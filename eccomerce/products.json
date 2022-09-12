@@ -1,0 +1,22 @@
+[
+    {
+        "product": "T-Shirt",
+        "Price": 5.99,
+        "Stock Availability": 15
+    },
+    {
+        "product": "T-Bag",
+        "Price": 15.99,
+        "Stock Availability": 8
+    },
+    {
+        "product": "Jeans",
+        "Price": 10.99,
+        "Stock Availability": 3
+    },
+    {
+        "product": "Book",
+        "Price": 7.99,
+        "Stock Availability": 10
+    }
+]
